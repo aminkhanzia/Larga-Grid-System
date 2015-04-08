@@ -1,0 +1,16 @@
+@@ -0,0 +1,15 @@
+ /* it's not an important file, this file styles the demo index.html and have nothing to do with the Larga.css */
+p{
+	 background:#F9BF3B;
+	 font-family:sans-serif;
+	 font-size:85%;
+	 line-height:2em;
+	 font-weight: bold;
+	 color:#333;
+	 padding:1em;
+	 min-height:120px;
+	 text-align: right;
+	 direction: rtl;
+}
+	 
+	 
