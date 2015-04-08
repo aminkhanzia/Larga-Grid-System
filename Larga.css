@@ -1,0 +1,320 @@
+@@ -0,0 +1,319 @@
+/*********************************************************************************************
+
+Project : LARGA
+URI: http://Larga.com/
+Version: 1.0
+Author: Amin Zia
+Author URI: http://www.aminzia.ir
+Github URI: https://github.com/gsvineeth/rwdgrid/
+Twitter Account : amin__zia
+
+**********************************************************************************************
+
+1.  Base code            
+2.  Mobile Grid 
+3.  Grid 720px+
+4.  Grid 1024px+
+5.  Grid 1200px+
+6.  Helper classes
+
+**********************************************************************************************/
+
+
+/********************************************************************************************* 
+
+1.  Base code            
+
+*********************************************************************************************/
+
+
+*, *:after, *:before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ [class*='grid-'] {
+ float: left;
+ padding: 10px;
+ width:100%;
+}
+ [class*='desktopGrid-'] {
+ float: left;
+ padding: 10px;
+ width:100%;
+}
+ [class*='landscapeTabletGrid-'] {
+ float: left;
+ padding: 10px;
+ width:100%;
+}
+ [class*='tabletGrid-'] {
+ float: left;
+ padding: 10px;
+ width:100%;
+}
+ [class*='mobileGrid-'] {
+ float: left;
+ padding: 10px;
+ width:100%;
+}
+.clear-grid{
+clear:both;
+float:inherit;
+}
+.container {
+	margin:0%;
+	width: 100%;
+}
+.container:after, .container:before {
+	display: table;
+	clear:both;
+	content: " ";
+}
+.nest {
+	margin:0 -10px;
+	padding:0;
+	width:auto;
+}
+
+/********************************************************************************************* 
+
+2.  Mobile Grid 
+
+*********************************************************************************************/
+
+
+.mobileGrid-12 {
+	width: 100%;
+}
+.mobileGrid-11 {
+	width: 91.666663%;
+}
+.mobileGrid-10 {
+	width: 83.33%;
+}
+.mobileGrid-9 {
+	width: 74.999997%;
+}
+.mobileGrid-8 {
+	width: 66.66666664%;
+}
+.mobileGrid-7 {
+	width: 58.333%;
+}
+.mobileGrid-6 {
+	width: 50%;
+}
+.mobileGrid-5 {
+	width: 41.6665%;
+}
+.mobileGrid-4 {
+	width: 33.33%;
+}
+.mobileGrid-3 {
+	width: 24.99%;
+}
+.mobileGrid-2 {
+	width: 16.66666%;
+}
+.mobileGrid-1 {
+	width: 8.33%;
+}
+
+/********************************************************************************************* 
+
+3.  Grid 720px+
+
+*********************************************************************************************/
+
+@media (min-width: 720px) {
+    
+.grid-12 {
+width: 100%;
+}
+.grid-11 {
+width: 91.666663%;
+}
+.grid-10 {
+width: 83.33%;
+}
+.grid-9 {
+width: 74.999997%;
+}
+.grid-8 {
+width: 66.66666664%;
+}
+.grid-7 {
+width: 58.333%;
+}
+.grid-6 {
+width: 50%;
+}
+.grid-5 {
+width: 41.6665%;
+}
+.grid-4 {
+width: 33.33%;
+}
+.grid-3 {
+width: 24.99%;
+}
+.grid-2 {
+width: 16.66666%;
+}
+.grid-1 {
+width: 8.33%;
+} 
+    
+.tabletGrid-12 {
+width: 100%;
+}
+.tabletGrid-11 {
+width: 91.666663%;
+}
+.tabletGrid-10 {
+width: 83.33%;
+}
+.tabletGrid-9 {
+width: 74.999997%;
+}
+.tabletGrid-8 {
+width: 66.66666664%;
+}
+.tabletGrid-7 {
+width: 58.333%;
+}
+.tabletGrid-6 {
+width: 50%;
+}
+.tabletGrid-5 {
+width: 41.6665%;
+}
+.tabletGrid-4 {
+width: 33.33%;
+}
+.tabletGrid-3 {
+width: 24.99%;
+}
+.tabletGrid-2 {
+width: 16.66666%;
+}
+.tabletGrid-1 {
+width: 8.33%;
+}
+}
+	
+/********************************************************************************************* 
+
+4.  Grid 1024px+
+
+*********************************************************************************************/
+
+@media only screen and (min-width: 1024px) {
+ 
+.landscapeTabletGrid-12 {
+width: 100%;
+}
+.landscapeTabletGrid-11 {
+width: 91.666663%;
+}
+.landscapeTabletGrid-10 {
+width: 83.33%;
+}
+.landscapeTabletGrid-9 {
+width: 74.999997%;
+}
+.landscapeTabletGrid-8 {
+width: 66.66666664%;
+}
+.landscapeTabletGrid-7 {
+width: 58.333%;
+}
+.landscapeTabletGrid-6 {
+width: 50%;
+}
+.landscapeTabletGrid-5 {
+width: 41.6665%;
+}
+.landscapeTabletGrid-4 {
+width: 33.33%;
+}
+.landscapeTabletGrid-3 {
+width: 24.99%;
+}
+.landscapeTabletGrid-2 {
+width: 16.66666%;
+}
+.landscapeTabletGrid-1 {
+width: 8.33%;
+}
+}
+	
+
+/********************************************************************************************* 
+
+5.  Grid 1200px+
+
+*********************************************************************************************/
+	
+@media only screen and (min-width: 1200px) {
+ 
+.container {
+ max-width:1180px;
+ margin:0 auto;
+}
+ .container-fluid {
+ max-width:90%;
+ margin:0 5%;
+}
+.desktopGrid-12 {
+width: 100%;
+}
+.desktopGrid-11 {
+width: 91.666663%;
+}
+.desktopGrid-10 {
+width: 83.33%;
+}
+.desktopGrid-9 {
+width: 74.999997%;
+}
+.desktopGrid-8 {
+width: 66.66666664%;
+}
+.desktopGrid-7 {
+width: 58.333%;
+}
+.desktopGrid-6 {
+width: 50%;
+}
+.desktopGrid-5 {
+width: 41.6665%;
+}
+.desktopGrid-4 {
+width: 33.33%;
+}
+.desktopGrid-3 {
+width: 24.99%;
+}
+.desktopGrid-2 {
+width: 16.66666%;
+}
+.desktopGrid-1 {
+width: 8.33%;
+}
+}
+
+/********************************************************************************************* 
+
+6.  Helper classes
+
+*********************************************************************************************/
+
+
+img.scale, img.responsive {
+	max-width: 100%;
+	height: auto;
+} 
