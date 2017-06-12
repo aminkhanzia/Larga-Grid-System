@@ -6,7 +6,6 @@ This can be used as a base grid system that will help you to build responsive we
 
 LARGA is free and allways will be.The license is simple you can  customize it but you have to mention the author's  name somewhere in your files.
 
-email me --->  me[at]aminzia[dot]ir
-follow me on twitter ---> @amin__zia
+follow me on twitter ---> @ziaowsky
 
 
